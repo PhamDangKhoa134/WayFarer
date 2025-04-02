@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "g7cOK+BRpmMxGn5d4Jzy7/uIvyHrwzAJP9rmje+4R5o=",
+  "Source": "WebAPI.WayFarer",
+  "BasePath": "_content/WebAPI.WayFarer",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

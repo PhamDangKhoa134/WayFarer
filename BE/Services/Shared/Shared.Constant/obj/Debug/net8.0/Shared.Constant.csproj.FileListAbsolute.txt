@@ -1,0 +1,12 @@
+C:\DuAn\WayFarer\BE\Services\Shared\Shared.Constant\bin\Debug\net8.0\Shared.Constant.deps.json
+C:\DuAn\WayFarer\BE\Services\Shared\Shared.Constant\bin\Debug\net8.0\Shared.Constant.dll
+C:\DuAn\WayFarer\BE\Services\Shared\Shared.Constant\bin\Debug\net8.0\Shared.Constant.pdb
+C:\DuAn\WayFarer\BE\Services\Shared\Shared.Constant\obj\Debug\net8.0\Shared.Constant.GeneratedMSBuildEditorConfig.editorconfig
+C:\DuAn\WayFarer\BE\Services\Shared\Shared.Constant\obj\Debug\net8.0\Shared.Constant.AssemblyInfoInputs.cache
+C:\DuAn\WayFarer\BE\Services\Shared\Shared.Constant\obj\Debug\net8.0\Shared.Constant.AssemblyInfo.cs
+C:\DuAn\WayFarer\BE\Services\Shared\Shared.Constant\obj\Debug\net8.0\Shared.Constant.csproj.CoreCompileInputs.cache
+C:\DuAn\WayFarer\BE\Services\Shared\Shared.Constant\obj\Debug\net8.0\Shared.Constant.sourcelink.json
+C:\DuAn\WayFarer\BE\Services\Shared\Shared.Constant\obj\Debug\net8.0\Shared.Constant.dll
+C:\DuAn\WayFarer\BE\Services\Shared\Shared.Constant\obj\Debug\net8.0\refint\Shared.Constant.dll
+C:\DuAn\WayFarer\BE\Services\Shared\Shared.Constant\obj\Debug\net8.0\Shared.Constant.pdb
+C:\DuAn\WayFarer\BE\Services\Shared\Shared.Constant\obj\Debug\net8.0\ref\Shared.Constant.dll

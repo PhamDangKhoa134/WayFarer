@@ -1,0 +1,6 @@
+@WebAPI.WayFarer_HostAddress = http://localhost:5157
+
+GET {{WebAPI.WayFarer_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

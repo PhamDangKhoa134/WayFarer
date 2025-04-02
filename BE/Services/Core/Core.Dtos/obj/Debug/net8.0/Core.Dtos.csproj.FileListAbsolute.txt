@@ -1,0 +1,12 @@
+C:\DuAn\WayFarer\BE\Services\Core\Core.Dtos\bin\Debug\net8.0\Core.Dtos.deps.json
+C:\DuAn\WayFarer\BE\Services\Core\Core.Dtos\bin\Debug\net8.0\Core.Dtos.dll
+C:\DuAn\WayFarer\BE\Services\Core\Core.Dtos\bin\Debug\net8.0\Core.Dtos.pdb
+C:\DuAn\WayFarer\BE\Services\Core\Core.Dtos\obj\Debug\net8.0\Core.Dtos.GeneratedMSBuildEditorConfig.editorconfig
+C:\DuAn\WayFarer\BE\Services\Core\Core.Dtos\obj\Debug\net8.0\Core.Dtos.AssemblyInfoInputs.cache
+C:\DuAn\WayFarer\BE\Services\Core\Core.Dtos\obj\Debug\net8.0\Core.Dtos.AssemblyInfo.cs
+C:\DuAn\WayFarer\BE\Services\Core\Core.Dtos\obj\Debug\net8.0\Core.Dtos.csproj.CoreCompileInputs.cache
+C:\DuAn\WayFarer\BE\Services\Core\Core.Dtos\obj\Debug\net8.0\Core.Dtos.sourcelink.json
+C:\DuAn\WayFarer\BE\Services\Core\Core.Dtos\obj\Debug\net8.0\Core.Dtos.dll
+C:\DuAn\WayFarer\BE\Services\Core\Core.Dtos\obj\Debug\net8.0\refint\Core.Dtos.dll
+C:\DuAn\WayFarer\BE\Services\Core\Core.Dtos\obj\Debug\net8.0\Core.Dtos.pdb
+C:\DuAn\WayFarer\BE\Services\Core\Core.Dtos\obj\Debug\net8.0\ref\Core.Dtos.dll

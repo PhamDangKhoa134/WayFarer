@@ -1,0 +1,12 @@
+C:\DuAn\WayFarer\BE\Services\Shared\Shared.ApplicationService\bin\Debug\net8.0\Shared.ApplicationService.deps.json
+C:\DuAn\WayFarer\BE\Services\Shared\Shared.ApplicationService\bin\Debug\net8.0\Shared.ApplicationService.dll
+C:\DuAn\WayFarer\BE\Services\Shared\Shared.ApplicationService\bin\Debug\net8.0\Shared.ApplicationService.pdb
+C:\DuAn\WayFarer\BE\Services\Shared\Shared.ApplicationService\obj\Debug\net8.0\Shared.ApplicationService.GeneratedMSBuildEditorConfig.editorconfig
+C:\DuAn\WayFarer\BE\Services\Shared\Shared.ApplicationService\obj\Debug\net8.0\Shared.ApplicationService.AssemblyInfoInputs.cache
+C:\DuAn\WayFarer\BE\Services\Shared\Shared.ApplicationService\obj\Debug\net8.0\Shared.ApplicationService.AssemblyInfo.cs
+C:\DuAn\WayFarer\BE\Services\Shared\Shared.ApplicationService\obj\Debug\net8.0\Shared.ApplicationService.csproj.CoreCompileInputs.cache
+C:\DuAn\WayFarer\BE\Services\Shared\Shared.ApplicationService\obj\Debug\net8.0\Shared.ApplicationService.sourcelink.json
+C:\DuAn\WayFarer\BE\Services\Shared\Shared.ApplicationService\obj\Debug\net8.0\Shared.ApplicationService.dll
+C:\DuAn\WayFarer\BE\Services\Shared\Shared.ApplicationService\obj\Debug\net8.0\refint\Shared.ApplicationService.dll
+C:\DuAn\WayFarer\BE\Services\Shared\Shared.ApplicationService\obj\Debug\net8.0\Shared.ApplicationService.pdb
+C:\DuAn\WayFarer\BE\Services\Shared\Shared.ApplicationService\obj\Debug\net8.0\ref\Shared.ApplicationService.dll

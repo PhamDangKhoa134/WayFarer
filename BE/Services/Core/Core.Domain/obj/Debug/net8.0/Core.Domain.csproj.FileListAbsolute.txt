@@ -1,0 +1,16 @@
+C:\DuAn\WayFarer\BE\Services\Core\Core.Domain\bin\Debug\net8.0\Core.Domain.deps.json
+C:\DuAn\WayFarer\BE\Services\Core\Core.Domain\bin\Debug\net8.0\Core.Domain.dll
+C:\DuAn\WayFarer\BE\Services\Core\Core.Domain\bin\Debug\net8.0\Core.Domain.pdb
+C:\DuAn\WayFarer\BE\Services\Core\Core.Domain\bin\Debug\net8.0\Shared.Constant.dll
+C:\DuAn\WayFarer\BE\Services\Core\Core.Domain\bin\Debug\net8.0\Shared.Constant.pdb
+C:\DuAn\WayFarer\BE\Services\Core\Core.Domain\obj\Debug\net8.0\Core.Domain.csproj.AssemblyReference.cache
+C:\DuAn\WayFarer\BE\Services\Core\Core.Domain\obj\Debug\net8.0\Core.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\DuAn\WayFarer\BE\Services\Core\Core.Domain\obj\Debug\net8.0\Core.Domain.AssemblyInfoInputs.cache
+C:\DuAn\WayFarer\BE\Services\Core\Core.Domain\obj\Debug\net8.0\Core.Domain.AssemblyInfo.cs
+C:\DuAn\WayFarer\BE\Services\Core\Core.Domain\obj\Debug\net8.0\Core.Domain.csproj.CoreCompileInputs.cache
+C:\DuAn\WayFarer\BE\Services\Core\Core.Domain\obj\Debug\net8.0\Core.Domain.sourcelink.json
+C:\DuAn\WayFarer\BE\Services\Core\Core.Domain\obj\Debug\net8.0\Core.Dom.E1160B61.Up2Date
+C:\DuAn\WayFarer\BE\Services\Core\Core.Domain\obj\Debug\net8.0\Core.Domain.dll
+C:\DuAn\WayFarer\BE\Services\Core\Core.Domain\obj\Debug\net8.0\refint\Core.Domain.dll
+C:\DuAn\WayFarer\BE\Services\Core\Core.Domain\obj\Debug\net8.0\Core.Domain.pdb
+C:\DuAn\WayFarer\BE\Services\Core\Core.Domain\obj\Debug\net8.0\ref\Core.Domain.dll
