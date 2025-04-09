@@ -30,11 +30,14 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-
-
+  flutter_bloc: ^8.1.3  # Quản lý state với BLoC
+  http: ^0.13.6         # Gửi request API
+  get_it: ^7.6.4        # Dependency Injection (DI)
+  google_fonts: ^4.0.4
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.8
+  fluttertoast: ^8.2.12
 
 dev_dependencies:
   flutter_test:

@@ -1,4 +1,4 @@
-using Core.ApplicationService.Startup;
+﻿using Core.ApplicationService.Startup;
 using Core.Domain;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
@@ -11,6 +11,18 @@ namespace WebAPI.WayFarer
         public static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
+
+            // Đăng ký CORS
+            builder.Services.AddCors(options =>
+            {
+                options.AddPolicy("AllowFlutterApp", policy =>
+                {
+                    policy.WithOrigins("http://localhost:55555") 
+                          .AllowAnyHeader()
+                          .AllowAnyMethod()
+                          .AllowCredentials(); 
+                });
+            });
 
             var jwtSettings = new Jwtsettings();
             builder.Configuration.GetSection("JwtSettings").Bind(jwtSettings);
@@ -49,6 +61,9 @@ namespace WebAPI.WayFarer
             builder.ConfigureCore(typeof(Program).Namespace);
 
             var app = builder.Build();
+
+            // Sử dụng CORS
+            app.UseCors("AllowFlutterApp");
 
             // Configure the HTTP request pipeline.
             if (app.Environment.IsDevelopment())

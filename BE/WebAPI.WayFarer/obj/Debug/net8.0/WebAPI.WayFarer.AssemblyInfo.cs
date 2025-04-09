@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WebAPI.WayFarer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+519c5f005fdd0c5dfec9548187a499e6d2035086")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+de672f6670409b0cf231710ec80c7ea3fbdaee2a")]
 [assembly: System.Reflection.AssemblyProductAttribute("WebAPI.WayFarer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WebAPI.WayFarer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
