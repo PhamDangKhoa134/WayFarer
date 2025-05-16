@@ -10,6 +10,6 @@ class Routes {
   static const String login = '/login';
 
   static final routes = <String, WidgetBuilder>{
-    login: (BuildContext context) => const MyHomePage(title: 'Trang nay',),
+    login: (BuildContext context) => MyHomePage(title: 'Trang nay'),
   };
 }
