@@ -1,0 +1,61 @@
+import 'package:fe_v1/feature/presentation/widgets/user/wellcome_center.dart';
+import 'package:flutter/material.dart';
+import 'package:go_router/go_router.dart';
+import 'package:fe_v1/core/constants/color_base.dart';
+import 'package:fe_v1/core/route/route_name.dart';
+import 'package:fe_v1/core/utils/widgets/button_widget.dart';
+import 'package:fe_v1/core/utils/widgets/text_league_spartan.dart';
+
+class WelcomePage extends StatelessWidget {
+  const WelcomePage({super.key});
+  @override
+  Widget build(BuildContext context) {
+    double screenWidth = MediaQuery.of(context).size.width;
+
+    return Scaffold(
+      body: Center(
+        child: Column(
+          mainAxisAlignment:
+              MainAxisAlignment.center, // Căn giữa theo chiều dọc
+          children: [
+            WellcomeCenter(
+                linkImage: 'assets/images/logo.png',
+                width: screenWidth / 3,
+                color: ColorBase.blue),
+            const SizedBox(
+              height: 50,
+            ),
+            SizedBox(
+              width: screenWidth * 0.7,
+              child: const Center(
+                child: TextLeagueSpartan(
+                  title:
+                      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+                  weight: FontWeight.w300,
+                  align: TextAlign.center,
+                ),
+              ),
+            ),
+            const SizedBox(
+              height: 30,
+            ),
+            const ButtonWidget(
+              title: "Log In",
+              colorText: Colors.white,
+              // onClick: () => GoRouter.of(context).goNamed(logInRoute),
+            ),
+            const SizedBox(
+              height: 15,
+            ),
+            const ButtonWidget(
+              title: "Sign Up",
+              colorBtn: ColorBase.lightBlue,
+              colorText: ColorBase.blue,
+              // onClick: () => GoRouter.of(context).goNamed(signUpRoute),
+            )
+          ],
+        ),
+      ),
+    );
+  }
+}
