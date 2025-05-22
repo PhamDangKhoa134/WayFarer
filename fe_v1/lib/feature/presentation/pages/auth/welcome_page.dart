@@ -47,11 +47,11 @@ class WelcomePage extends StatelessWidget {
             const SizedBox(
               height: 15,
             ),
-            const ButtonWidget(
+            ButtonWidget(
               title: "Sign Up",
               colorBtn: ColorBase.lightBlue,
               colorText: ColorBase.blue,
-              // onClick: () => GoRouter.of(context).goNamed(signUpRoute),
+              onClick: () => GoRouter.of(context).goNamed(signUpRoute),
             )
           ],
         ),
