@@ -30,7 +30,7 @@ class CustomAppBar extends StatelessWidget implements PreferredSizeWidget {
         child: IconButton(
           padding: EdgeInsets.zero,
           icon:
-              Icon(FontAwesomeIcons.angleLeft, size: 25, color: ColorBase.blue),
+              Icon(FontAwesomeIcons.angleLeft, size: 25, color: const Color(0xFF3FA5D1)),
           onPressed: onBack,
         ),
       ),
@@ -38,7 +38,7 @@ class CustomAppBar extends StatelessWidget implements PreferredSizeWidget {
         title: title,
         size: SizeBase.sizeBaseH4,
         weight: FontWeight.w600,
-        color: ColorBase.blue,
+        color: const Color(0xFF3FA5D1),
       ),
       centerTitle: true,
       actions: actions,

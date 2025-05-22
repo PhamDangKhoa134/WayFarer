@@ -18,11 +18,11 @@ class CustomDropdownField<T> extends StatelessWidget {
     Key? key,
     required this.items,
     this.title,
-    this.sizeTitle = SizeBase.sizeBaseH5,
+    this.sizeTitle = SizeBase.sizeBaseH6,
     this.value,
     this.onChanged,
     this.validator,
-    this.borderColor = ColorBase.blue,
+    this.borderColor = const Color(0xFF5E5E5E),
     this.onTap,
     required this.hintText,
   }) : super(key: key);
@@ -42,12 +42,12 @@ class CustomDropdownField<T> extends StatelessWidget {
         onChanged: onChanged,
         validator: validator,
         onTap: onTap,
-        style: TextStyle(color: ColorBase.periwinkleBlue),
+        style: TextStyle(color: const Color(0xFFe5e5e5)),
         decoration: InputDecoration(
           hintText: hintText,
-          hintStyle: TextStyle(color: ColorBase.periwinkleBlue),
+          hintStyle: TextStyle(color: const Color(0xFF5E5E5E)),
           filled: true,
-          fillColor: ColorBase.lightBlue,
+          fillColor: const Color(0xFFe5e5e5),
           enabledBorder: OutlineInputBorder(
             borderRadius: BorderRadius.circular(10),
             borderSide: BorderSide(color: Colors.white),
@@ -65,7 +65,7 @@ class CustomDropdownField<T> extends StatelessWidget {
             borderSide: const BorderSide(color: Colors.red, width: 1),
           ),
         ),
-        dropdownColor: ColorBase.lightBlue,
+        dropdownColor: const Color(0xFFe5e5e5),
       ),
     ]);
   }

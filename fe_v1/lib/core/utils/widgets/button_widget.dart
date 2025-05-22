@@ -14,12 +14,12 @@ class ButtonWidget extends StatelessWidget {
 
   const ButtonWidget({
     super.key,
-    this.colorBtn = ColorBase.blue,
+    this.colorBtn = const Color(0xFF3FA5D1),
     this.colorText = Colors.white,
-    this.widthBtn = 200,
-    this.fontWeight = FontWeight.w500,
+    this.widthBtn = 300,
+    this.fontWeight = FontWeight.w400,
     this.sizeText = 23,
-    this.heightBtn = 55,
+    this.heightBtn = 50,
     this.onClick = null,
     required this.title,
   });
@@ -34,7 +34,7 @@ class ButtonWidget extends StatelessWidget {
         style: ElevatedButton.styleFrom(
           backgroundColor: colorBtn, // Màu nền
           shape: RoundedRectangleBorder(
-            borderRadius: BorderRadius.circular(100), // Bo góc
+            borderRadius: BorderRadius.circular(10), // Bo góc
           ),
         ),
         child: TextLeagueSpartan(

@@ -23,7 +23,7 @@ final List<GoRoute> authRoutes = [
   ),
   GoRoute(
     path: '/home',
-    name: signUpRoute,
+    name: homeRoute,
     pageBuilder: (context, state) => NoTransitionPage(
       child: HomePage(
         key: state.pageKey,

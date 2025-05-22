@@ -20,19 +20,11 @@ class WellcomeCenter extends StatelessWidget {
           linkImage,
           width: width,
         ), // Hình ảnh
+        const SizedBox(height: 40),
+
         TextLeagueSpartan(
-          title: 'Skin',
+          title: 'WAY FARER',
           size: SizeBase.sizeBaseH1,
-          color: color,
-        ),
-        TextLeagueSpartan(
-          title: 'Firts',
-          size: SizeBase.sizeBaseH1,
-          color: color,
-        ),
-        TextLeagueSpartan(
-          title: 'Dermatology center',
-          size: SizeBase.sizeBaseH6,
           weight: FontWeight.w600,
           color: color,
         ),

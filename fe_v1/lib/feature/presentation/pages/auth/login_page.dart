@@ -47,7 +47,7 @@ class _LoginPageState extends State<LoginPage> {
             child: CustomScrollView(
               slivers: [
                 CustomAppBar(
-                  title: "Log In",
+                  title: "LOG IN",
                   onBack: () => GoRouter.of(context).goNamed(welComeRoute),
                 ),
                 SliverToBoxAdapter(
@@ -56,18 +56,7 @@ class _LoginPageState extends State<LoginPage> {
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
-                        SizedBox(height: 20),
-                        TextLeagueSpartan(
-                          title: "Welcome",
-                          size: SizeBase.sizeBaseH4,
-                          color: ColorBase.blue,
-                          weight: FontWeight.w600,
-                        ),
-                        TextLeagueSpartan(
-                          title:
-                              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                          weight: FontWeight.w300,
-                        ),
+                        
                         SizedBox(height: 40),
                         Form(
                           key: _formKey,
@@ -98,14 +87,14 @@ class _LoginPageState extends State<LoginPage> {
                                   child: TextButton(
                                     onPressed: () => GoRouter.of(context)
                                         .goNamed(emailRoute),
-                                    child: TextLeagueSpartan(
+                                    child: const TextLeagueSpartan(
                                       title: "Forget Password",
                                       size: SizeBase.sizeSmall,
                                       weight: FontWeight.w500,
                                       color: ColorBase.blue,
                                     ),
                                   )),
-                              SizedBox(height: 40),
+                              const SizedBox(height: 40),
                               ButtonWidget(
                                 title: "Log In",
                                 onClick: () {
@@ -122,7 +111,7 @@ class _LoginPageState extends State<LoginPage> {
                                 },
                               ),
                               SizedBox(height: 40),
-                              TextLeagueSpartan(
+                              const TextLeagueSpartan(
                                 title: "or sign up with",
                                 size: SizeBase.sizeBaseP,
                                 weight: FontWeight.w300,
@@ -131,15 +120,15 @@ class _LoginPageState extends State<LoginPage> {
                                 mainAxisAlignment: MainAxisAlignment.center,
                                 children: [
                                   IconButton(
-                                    icon: FaIcon(FontAwesomeIcons.facebook,
+                                    icon: const FaIcon(FontAwesomeIcons.facebook,
                                         color: ColorBase.blue, size: 30),
                                     onPressed: () {
                                       print("Đăng nhập bằng Facebook");
                                     },
                                   ),
-                                  SizedBox(width: 20),
+                                  const SizedBox(width: 20),
                                   IconButton(
-                                    icon: FaIcon(FontAwesomeIcons.google,
+                                    icon: const FaIcon(FontAwesomeIcons.google,
                                         color: Colors.red, size: 30),
                                     onPressed: () {
                                       print("Đăng nhập bằng Google");
@@ -147,11 +136,11 @@ class _LoginPageState extends State<LoginPage> {
                                   ),
                                 ],
                               ),
-                              SizedBox(height: 40),
+                              const SizedBox(height: 40),
                               Row(
                                 mainAxisAlignment: MainAxisAlignment.center,
                                 children: [
-                                  TextLeagueSpartan(
+                                  const TextLeagueSpartan(
                                     title: "Don't have account?",
                                     size: SizeBase.sizeBaseP,
                                     weight: FontWeight.w300,
@@ -159,7 +148,7 @@ class _LoginPageState extends State<LoginPage> {
                                   TextButton(
                                     onPressed: () => GoRouter.of(context)
                                         .goNamed(signUpRoute),
-                                    child: TextLeagueSpartan(
+                                    child: const TextLeagueSpartan(
                                       title: "Sign Up",
                                       size: SizeBase.sizeBaseP,
                                       weight: FontWeight.w500,
@@ -168,7 +157,7 @@ class _LoginPageState extends State<LoginPage> {
                                   )
                                 ],
                               ),
-                              SizedBox(height: 200),
+                              const SizedBox(height: 200),
                             ],
                           ),
                         ),

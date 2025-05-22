@@ -25,11 +25,11 @@ class CustomTextField extends StatefulWidget {
     this.keyboardType = TextInputType.text,
     this.prefixIcon,
     this.suffixIcon,
-    this.borderColor = ColorBase.blue,
+    this.borderColor = const Color(0xFF5E5E5E),
     this.onChanged,
     this.validator,
     this.title,
-    this.sizeTitle = SizeBase.sizeBaseH5,
+    this.sizeTitle = SizeBase.sizeBaseH6,
     this.onTap,
   }) : super(key: key);
   @override
@@ -57,15 +57,15 @@ class _CustomTextFieldState extends State<CustomTextField> {
         controller: widget.controller,
         obscureText: _obscureText,
         keyboardType: widget.keyboardType,
-        style: TextStyle(color: ColorBase.periwinkleBlue),
+        style: TextStyle(color: const Color(0xFF8E8E8E)),
         onChanged: widget.onChanged,
         onTap: widget.onTap,
         validator: widget.validator,
         decoration: InputDecoration(
           hintText: widget.hintText,
-          hintStyle: TextStyle(color: ColorBase.periwinkleBlue),
+          hintStyle: TextStyle(color: const Color(0xFF8E8E8E)),
           filled: true,
-          fillColor: ColorBase.lightBlue,
+          fillColor: const Color(0xFFE5E5E5),
           prefixIcon: widget.prefixIcon != null
               ? Icon(widget.prefixIcon, color: widget.borderColor)
               : null,

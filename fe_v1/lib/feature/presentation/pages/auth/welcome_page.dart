@@ -21,16 +21,16 @@ class WelcomePage extends StatelessWidget {
             WellcomeCenter(
                 linkImage: 'assets/images/logo.png',
                 width: screenWidth / 3,
-                color: ColorBase.blue),
+                color: const Color.fromARGB(255, 0, 0, 0)),
             const SizedBox(
-              height: 50,
+              height: 20,
             ),
             SizedBox(
-              width: screenWidth * 0.7,
+              width: screenWidth * 0.6,
               child: const Center(
                 child: TextLeagueSpartan(
                   title:
-                      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+                      '',
                   weight: FontWeight.w300,
                   align: TextAlign.center,
                 ),
@@ -49,8 +49,6 @@ class WelcomePage extends StatelessWidget {
             ),
             ButtonWidget(
               title: "Sign Up",
-              colorBtn: ColorBase.lightBlue,
-              colorText: ColorBase.blue,
               onClick: () => GoRouter.of(context).goNamed(signUpRoute),
             )
           ],

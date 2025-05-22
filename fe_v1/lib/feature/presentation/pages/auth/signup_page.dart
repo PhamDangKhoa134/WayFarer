@@ -56,7 +56,7 @@ class _SignupPageState extends State<SignupPage> {
             child: CustomScrollView(
               slivers: [
                 CustomAppBar(
-                  title: "Sign Up",
+                  title: "SIGN UP",
                   onBack: () => GoRouter.of(context).goNamed(welComeRoute),
                 ),
                 SliverToBoxAdapter(
