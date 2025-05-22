@@ -164,28 +164,7 @@ class _SignupPageState extends State<SignupPage> {
                                       )),
                                 ],
                               ),
-                              SizedBox(height: 40),
-                              TextLeagueSpartan(
-                                title: "By continuing, you agree to ",
-                                size: SizeBase.sizeBaseP,
-                                weight: FontWeight.w300,
-                              ),
-                              Row(
-                                mainAxisAlignment: MainAxisAlignment.center,
-                                children: [
-                                  TextLeagueSpartan(
-                                    title: "Terms of Use ",
-                                    size: SizeBase.sizeBaseP,
-                                    weight: FontWeight.w300,
-                                  ),
-                                  TextLeagueSpartan(
-                                    title: " and Privacy Policy",
-                                    size: SizeBase.sizeBaseP,
-                                    weight: FontWeight.w500,
-                                    color: ColorBase.blue,
-                                  ),
-                                ],
-                              ),
+                              
                               SizedBox(height: 20),
                               ButtonWidget(
                                 title: "Sign Up",
@@ -216,32 +195,7 @@ class _SignupPageState extends State<SignupPage> {
                                   }
                                 },
                               ),
-                              SizedBox(height: 20),
-                              TextLeagueSpartan(
-                                title: "or sign up with",
-                                size: SizeBase.sizeBaseP,
-                                weight: FontWeight.w300,
-                              ),
-                              Row(
-                                mainAxisAlignment: MainAxisAlignment.center,
-                                children: [
-                                  IconButton(
-                                    icon: FaIcon(FontAwesomeIcons.facebook,
-                                        color: ColorBase.blue, size: 30),
-                                    onPressed: () {
-                                      print("Đăng nhập bằng Facebook");
-                                    },
-                                  ),
-                                  SizedBox(width: 40),
-                                  IconButton(
-                                    icon: FaIcon(FontAwesomeIcons.google,
-                                        color: Colors.red, size: 30),
-                                    onPressed: () {
-                                      print("Đăng nhập bằng Google");
-                                    },
-                                  ),
-                                ],
-                              ),
+                              
                               SizedBox(height: 40),
                               Row(
                                 mainAxisAlignment: MainAxisAlignment.center,

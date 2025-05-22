@@ -38,8 +38,13 @@ class _LoginPageState extends State<LoginPage> {
             GoRouter.of(context).goNamed(homeRoute, extra: 0);
           } else if (state is AuthError) {
             Notifications.error(context, state.error);
-            GoRouter.of(context).goNamed(homeRoute, extra: 0);
+            GoRouter.of(context).goNamed(logInRoute, extra: 0);
           }
+          Future.delayed(const Duration(seconds: 5), () {
+            
+              GoRouter.of(context).goNamed(homeRoute, extra: 0);
+            
+          });
         },
         builder: (context, state) {
           return OpacityWidget(
@@ -109,6 +114,7 @@ class _LoginPageState extends State<LoginPage> {
                                         );
                                   }
                                 },
+                                // onClick: () => GoRouter.of(context).goNamed(homeRoute),
                               ),
                               SizedBox(height: 40),
                               const TextLeagueSpartan(
