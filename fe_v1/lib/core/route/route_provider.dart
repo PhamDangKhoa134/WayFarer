@@ -1,3 +1,4 @@
+import 'package:fe_v1/core/route/auth_route.dart';
 import 'package:fe_v1/core/route/route_name.dart';
 import 'package:fe_v1/feature/presentation/pages/auth/splash_page.dart';
 import 'package:fe_v1/feature/presentation/pages/auth/welcome_page.dart';
@@ -37,6 +38,7 @@ class RouteProvider {
               transitionDuration: const Duration(seconds: 1),
             ),
           ),
+          ...authRoutes,
       ]);
   }}
 

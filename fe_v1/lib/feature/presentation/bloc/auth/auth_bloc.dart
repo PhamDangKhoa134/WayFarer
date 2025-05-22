@@ -1,8 +1,24 @@
+import 'package:fe_v1/core/exceptions/user_exception.dart';
+import 'package:fe_v1/feature/domain/usecases/login_usecase.dart';
 import 'package:fe_v1/feature/presentation/bloc/auth/auth_event.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:fe_v1/feature/presentation/bloc/auth/auth_state.dart';
 
 class AuthBloc extends Bloc<AuthEvent, AuthState> {
-  AuthBloc()
-      : super(AuthInitial()) {}
+  final LoginUsecase loginUsecase;
+  AuthBloc(this.loginUsecase)
+    : super(AuthInitial()) {
+      on<LoginRequest>(_onLoginRequest);
+  }
+
+    Future<void> _onLoginRequest(
+      LoginRequest event, Emitter<AuthState> emit) async {
+    emit(AuthLoading());
+    try {
+      await loginUsecase(event.dto);
+      emit(AuthSuccess("Đăng nhập thành công"));
+    } on UserException catch (e) {
+      emit(AuthError(e.message));
+    }
+  }
 }

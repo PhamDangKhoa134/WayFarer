@@ -39,10 +39,10 @@ class WelcomePage extends StatelessWidget {
             const SizedBox(
               height: 30,
             ),
-            const ButtonWidget(
+            ButtonWidget(
               title: "Log In",
               colorText: Colors.white,
-              // onClick: () => GoRouter.of(context).goNamed(logInRoute),
+              onClick: () => GoRouter.of(context).goNamed(logInRoute),
             ),
             const SizedBox(
               height: 15,

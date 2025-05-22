@@ -66,8 +66,12 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -112,7 +116,7 @@
               "RelativeDocumentMoniker": "WebAPI.WayFarer\\Program.cs",
               "ToolTip": "C:\\DuAn\\WayFarer\\BE\\WebAPI.WayFarer\\Program.cs",
               "RelativeToolTip": "WebAPI.WayFarer\\Program.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAmwEEAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEUAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-02T16:26:59.285Z",
               "EditorCaption": ""
