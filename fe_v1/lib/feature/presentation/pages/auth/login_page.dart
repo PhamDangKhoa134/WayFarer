@@ -41,9 +41,7 @@ class _LoginPageState extends State<LoginPage> {
             GoRouter.of(context).goNamed(logInRoute, extra: 0);
           }
           Future.delayed(const Duration(seconds: 5), () {
-            
               GoRouter.of(context).goNamed(homeRoute, extra: 0);
-            
           });
         },
         builder: (context, state) {

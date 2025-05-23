@@ -49,6 +49,9 @@ class _SignupPageState extends State<SignupPage> {
           } else if (state is AuthError) {
             Notifications.error(context, state.error);
           }
+          Future.delayed(const Duration(seconds: 5), () {
+              GoRouter.of(context).goNamed(homeRoute, extra: 0);
+          });
         },
         builder: (context, state) {
           return OpacityWidget(
