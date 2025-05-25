@@ -34,25 +34,25 @@ class _BottomBarPageState extends State<BottomBarPage> {
   List<PersistentBottomNavBarItem> _navBarsItems() => [
         PersistentBottomNavBarItem(
           icon: const FaIcon(FontAwesomeIcons.houseChimneyMedical),
-          title: "Home",
+          // title: "Home",
           activeColorPrimary: ColorBase.yellow,
           inactiveColorPrimary: Colors.white,
         ),
         PersistentBottomNavBarItem(
           icon: const FaIcon(FontAwesomeIcons.robot),
-          title: "ChatBot",
+          // title: "ChatBot",
           activeColorPrimary: ColorBase.yellow,
           inactiveColorPrimary: Colors.white,
         ),
         PersistentBottomNavBarItem(
           icon: const FaIcon(FontAwesomeIcons.compass),
-          title: "Explore",
+          // title: "Explore",
           activeColorPrimary: ColorBase.yellow,
           inactiveColorPrimary: Colors.white,
         ),
         PersistentBottomNavBarItem(
           icon: const FaIcon(FontAwesomeIcons.user),
-          title: "Profile",
+          // title: "Profile",
           activeColorPrimary: ColorBase.yellow,
           inactiveColorPrimary: Colors.white,
         ),
